@@ -1,0 +1,10 @@
+name: GitHub Created
+on: [push]
+jobs:
+  display:
+      runs-on: ubuntu-latest
+      steps:
+          - name: Display Hello
+            run: echo "Hello"
+          - name: Display Bye
+            run: echo "Bye"
